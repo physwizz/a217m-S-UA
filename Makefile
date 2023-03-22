@@ -383,7 +383,7 @@ LD		= $(CROSS_COMPILE)ld
 
 CC=/home/physwizz/toolchains/toolchains-for-exynos-850/android_prebuilts_clang_host_linux-x86_clang-5484270-9.0/bin/clang
 
-r
+
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
 NM		= $(CROSS_COMPILE)nm

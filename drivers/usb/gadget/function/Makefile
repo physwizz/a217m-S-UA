@@ -67,7 +67,6 @@ else
 	usb_f_mtp_samsung-y                     := f_mtp_samsung.o
 	obj-$(CONFIG_USB_F_MTP)         += usb_f_mtp_samsung.o
 endif
-endif
 usb_f_ptp-y                     := f_ptp.o
 obj-$(CONFIG_USB_F_PTP)         += usb_f_ptp.o
 usb_f_audio_source-y            := f_audio_source.o
